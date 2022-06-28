@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Study on Assam Flood 2022
 
-You can use the [editor on GitHub](https://github.com/bakharia/Assam-2022/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+##### Table
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Col 1 (Index): Contains the name of the district
+- Col 2 (maps): Contains the maps stored as string which can be loaded as geemaps 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bakharia/Assam-2022/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  ```python
+  pip install geemap
+  ```
+ - Col 3 (total area): Total area of the district in hectares
+ - Col 4 (flooded area): Total flooded area in hectares
+ - Col 5 (per cent flooded): Percentage of area flooded in the district
+ 
+ 
+ ##### Maps
+ 
+ Seperate HTML map file for each district
+ 
+ - Gray region represents the state
+ - Blue represents the area of the district along with the name of the district in white
+ - Red region represents the flooded parts
+ 
+ ##### Graph
+ - A bar chart showcasing the districts sorted in ascending order as per the %age of area flooded
